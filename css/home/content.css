@@ -1,0 +1,55 @@
+.content {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content .welcome {
+    text-align: center;
+}
+
+.content .homepage-thumbnails {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 300px;
+}
+
+.content .homepage-thumbnails .thumbnail {
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+}
+
+.content .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content .profile-photo {
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    height: 200px;
+}
+
+.content .about {
+    margin-bottom: 50px;
+}
+
+/*Tablets*/
+@media (min-width: 550px){
+    .content {
+        font-size: 20px;
+    }
+}
+
+/*Desktop*/
+@media (min-width: 750px){
+    
+}
+

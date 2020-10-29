@@ -1,0 +1,10 @@
+body {
+    background-color: var(--color-pink-opaque);
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+hr {
+   border-top: 2px solid var(--color-green); 
+}
+

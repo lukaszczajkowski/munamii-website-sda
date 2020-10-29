@@ -1,0 +1,28 @@
+/*This file gives styling to the navigation bar*/
+.navbar {
+    text-align: center;
+}
+
+.navbar .logo {
+    border-radius: 100%;
+    border: solid 2px var(--color-green);
+    width: 100px;
+    height: auto;
+}
+
+.navbar .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: var(--color-brown);
+}
+
+.main-buttons {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    background-color: var(--color-green);
+    border: 0px;
+    min-width: 70px;
+    max-width: 300px;
+}
