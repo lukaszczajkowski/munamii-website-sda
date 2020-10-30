@@ -12,10 +12,9 @@
 }
 
 .content .homepage-thumbnails {
-    display: grid;
-    text-align: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
 }
 
 .content .homepage-thumbnails .thumbnail {
@@ -25,11 +24,17 @@
 }
 
 .content .about {
-    display: grid;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    text-align: left;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+    font-size: 11px;
 }
 
 .content .profile-photo {
+    margin-right: 20px;
     border-top-left-radius: 25%;
     border-bottom-left-radius: 25%;
     border-top-right-radius: 25%;
@@ -37,8 +42,53 @@
     height: 200px;
 }
 
-.content .about {
-    margin-bottom: 50px;
+.products {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.products .row {
+    display: grid;
+    grid-auto-rows: min-content;
+}
+
+
+.products-thumbnails {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.product-category {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 10px;
+}
+
+.first-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-information {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contact-headers {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 /*Tablets*/
